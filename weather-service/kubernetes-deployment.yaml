@@ -30,9 +30,7 @@ spec:
           ports:
             - containerPort: 5000
 
-            env:
-- name: DB_CONNECTION_STRING
-  value: "Driver={ODBC Driver 17 for SQL Server};Server=tcp:WeatherSQLServer.database.windows.net,1433;Database=WeatherDB;Uid=sqladmin;Pwd=Ortal123!;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
+            
 ---
 apiVersion: v1
 kind: Service
